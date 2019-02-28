@@ -9,7 +9,8 @@ RUN apt-get install -y build-essential cmake pkg-config \
                     libgtk-3-dev \
                     libatlas-base-dev gfortran \
                     libboost-all-dev \
-                    python3 python3-dev python3-numpy
+                    python3 python3-dev python3-numpy \
+                    unzip
 
 RUN apt-get install -y wget vim python3-tk python3-pip
 
